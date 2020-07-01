@@ -1,5 +1,4 @@
-FROM php:7.3.15-apache
-
+FROM php:5.6-apache
 ENV DEBIAN_FRONTEND noninteractive
 ENV SCRIPT_DIR /opt
 
