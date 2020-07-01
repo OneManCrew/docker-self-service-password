@@ -10,7 +10,7 @@ RUN apt-get update && \
         libldap2-dev \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
-        libmcrypt-dev && \
+        libmcrypt-dev \
         sendmail && \
     apt-get clean && \
     ln -fs /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/ && \
